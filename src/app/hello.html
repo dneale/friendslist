@@ -1,0 +1,14 @@
+<h1>List your friends in order of mutual friend count</h1>
+<p> Note that this will work best on a desktop. Also, don't share this link yet plz</p>
+<ol>
+<li> Log into facebook </li>
+<li> Go to https://m.facebook.com/friends/center/friends/ </li>
+<li> Scroll down the page until all your friends have loaded </li>
+<li> Select and copy all the whole page</li>
+<li> Paste contents into this field and submit </li>
+</ol>
+<form ng-submit="$ctrl.submitData()">
+	<textarea style="width:500px; height:300px" type="textfield" name="friends" ng-model="$ctrl.rawData"></textarea>
+	<button type=submit> Submit </button>
+</form>
+<div id="viz"></div>
