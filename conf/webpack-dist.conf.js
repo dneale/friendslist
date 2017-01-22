@@ -43,6 +43,12 @@ module.exports = {
         loaders: [
           'html-loader'
         ]
+      },
+      {
+        test: /.coffee$/,
+        loaders: [
+          'coffee-loader'
+        ]
       }
     ]
   },

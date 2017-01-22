@@ -1,4 +1,4 @@
-import d3plus from 'd3plus';
+// import d3plus from 'd3plus';
 
 export class HomeController {
 	constructor() {
@@ -14,15 +14,15 @@ export class HomeController {
   	}
 
 	draw() {
-		d3plus.viz()
-			.container("#viz")     // container DIV to hold the visualization
-			.data(this.data)     // data to use with the visualization
-			.type("bubbles")       // visualization type
-			.id(["group", "name"]) // nesting keys
-			.depth(10)              // 0-based depth
-			.size("friends")         // key name to size bubbles
-			.color("friends")        // color by each group
-			.draw();                // finally,  draw the visualization!
+		// d3plus.viz()
+		// 	.container("#viz")     // container DIV to hold the visualization
+		// 	.data(this.data)     // data to use with the visualization
+		// 	.type("bubbles")       // visualization type
+		// 	.id(["group", "name"]) // nesting keys
+		// 	.depth(10)              // 0-based depth
+		// 	.size("friends")         // key name to size bubbles
+		// 	.color("friends")        // color by each group
+		// 	.draw();                // finally,  draw the visualization!
   	}
 
   	parse(data) {
