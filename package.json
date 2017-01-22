@@ -63,7 +63,7 @@
   "scripts": {
     "build": "gulp",
     "serve": "gulp serve",
-    "start": "gulp serve:dist",
+    "start": "./node_modules/gulp/bin/gulp.js serve:dist",
     "test": "gulp test",
     "test:auto": "gulp test:auto"
   },
