@@ -58,7 +58,8 @@
     "babel-core": "^6.13.0",
     "babel-polyfill": "^6.7.4",
     "babel-preset-es2015": "^6.2.0",
-    "webpack": "2.1.0-beta.27"
+    "webpack": "2.1.0-beta.27",
+    "es6-promise"
   },
   "scripts": {
     "build": "gulp",
