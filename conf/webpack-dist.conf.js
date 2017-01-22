@@ -74,6 +74,10 @@ module.exports = {
     path: path.join(process.cwd(), conf.paths.dist),
     filename: '[name]-[hash].js'
   },
+  devServer: {
+    historyApiFallback: true,
+    contentBase: 'src'
+  },
   entry: {
     app: `./${conf.path.src('index')}`,
     vendor: Object.keys(pkg.dependencies)
